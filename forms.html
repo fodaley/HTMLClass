@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script>
+
+	function createStory() {
+		var selectBox = document.getElementById('activity');
+        alert(selectBox.value);
+	}
+ 
+	</script>
+</head>
+<body>
+
+<form action="javascript:createStory();">            
+	<select id="activity" name="activity">
+	  <option>Band</option>
+	  <option>Tennis</option>
+	  <option>Basketball</option>
+	  <option>Debate Club</option>
+	</select>
+
+
+    <input type="submit" value="Submit my story" class="btn btn-success">
+    <button type="reset" value="Reset"  class="btn btn-warning">Clear Form</button>
+</form>
+</body>
+</html>
